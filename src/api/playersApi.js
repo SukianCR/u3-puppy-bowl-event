@@ -45,6 +45,7 @@ const playersSlice = createSlice({
 
 export default playersSlice.reducer;
 export const { useGetUsersQuery } = playersApi;
+// export const { useGetUsersQuery, useGetUserQuery } = playersApi;
 
 //export default userSlice.reducer;
 //export const { useGetUsersQuery } = userApi;
