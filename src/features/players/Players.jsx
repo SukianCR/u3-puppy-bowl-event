@@ -27,7 +27,16 @@ export default function Players() {
     <div>
       {isSuccess &&
         players.map((player) => {
-          return <p key={player.id}>{player.name}</p>;
+          return (
+            <div key={player.id} className="player-card">
+              <img src={player.imageUrl} alt={player.name} />
+              <div className="player-details">
+                <p>{player.name}</p>
+                <p>{player.breed}</p>
+                <p>{player.status}</p>
+              </div>
+            </div>
+          );
         })}
     </div>
   );
