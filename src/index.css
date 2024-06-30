@@ -9,9 +9,9 @@ body {
 /* Styling for the introduction text of the application. */
 .intro {
   text-align: center; /* The text is centered. */
-  color: #610564; /* The color of the text. */
+  color: yellowgreen; /* The color of the text. */
   font-size: 24px; /* The size of the text. */
-  
+
   padding: 1.2em 1.2em 0.8em 1.2em;
   background-color: rgba(245, 245, 245, 0.445);
 }

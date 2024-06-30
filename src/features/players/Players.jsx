@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 
 export default function Players() {
   const [players, setPlayers] = useState([]);
+
+  // const { data, error,  isSuccess } = useGetUsersQuery();
   const { data, isSuccess } = useGetUsersQuery();
 
   //console.log("aqui viene la data " + data);
